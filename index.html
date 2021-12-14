@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE FLEXBOX</title>
+    <link rel="stylesheet" href="../FLEXBOX/style.css">
+    <script type="text/javascript" src="../FLEXBOX/script.js"></script>
+  
+</head>
+<body>
+     <div class="containertopo">
+        <div class="topo">
+            <nav>
+            <ul>
+                <li>Sobre</li>
+                <li>Serviços</li>
+                <li>Login</li>
+                <li>Registro</li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="containerheader">
+        <div class="headerleft">
+            <img src="../FLEXBOX/imagem/header.jpg" title="Livro e Rosa" alt="livro com rosa"> 
+        </div>
+       <div class="headerright">
+            <p>“Eu sou parte de tudo aquilo que li”. <br> John Kieran (1892-1981)</p>
+       </div>
+    </div>
+    <div class="containerplus">
+        <div class="nav">
+            <span>Literatura</span>
+                <li><a href="#">Livro A</a></li>
+                <li><a href="#">Livro B</a></li>
+                <li><a href="#">Livro C</a></li>
+            <br>
+            <span>Aventura</span>
+                <li><a href="#">Livro A</a></li>
+                <li><a href="#">Livro B</a></li>
+                <li><a href="#">Livro C</a></li>
+            <br>
+            <span>Fantasia</span>
+                <li><a href="#">Livro A</a></li>
+                <li><a href="#">Livro B</a></li>
+                <li><a href="#">Livro C</a></li>
+            <br>
+            <span>Ficção Científica</span>
+                <li><a href="#">Livro A</a></li>
+                <li><a href="#">Livro B</a></li>
+                <li><a href="#">Livro C</a></li>
+            <br>
+            <span>Policial</span>
+                <li><a href="#">Livro A</a></li>
+                <li><a href="#">Livro B</a></li>
+                <li><a href="#">Livro C</a></li>
+            <br>
+            <span>Ficção Científica</span>
+                <li><a href="#">Livro A</a></li>
+                <li><a href="#">Livro B</a></li>
+                <li><a href="#">Livro C</a></li>
+        </div>
+        <div class="main">
+                <div class="cx1">
+                    <img src="../FLEXBOX/imagem/literatura.jpg" alt="literatura">
+                    <a href="#">Literatura</a>  
+                </div>
+                <div class="cx2">
+                    <img src="../FLEXBOX/imagem/aventura.jfif" alt="Aventura">
+                    <a href="#">Aventura</a>
+                </div>
+                <div class="cx3">
+                    <img src="../FLEXBOX/imagem/fantasia.jpg" alt="fantasia">
+                    <a href="#">Fantasia</a>
+                </div>
+                <div class="cx4">
+                    <img src="../FLEXBOX/imagem/ficção cientifica.jpg" alt="Ficção Científica">
+                    <a href="#">Ficção Científica</a>
+                </div>
+                <div class="cx5">
+                    <img src="../FLEXBOX/imagem/policial.jpg" alt="Policial">
+                    <a href="#">Policial</a>
+                </div>
+                <div class="cx6">
+                    <img src="../FLEXBOX/imagem/romance.jpg" alt="romance">
+                    <a href="#">Romance</a>
+                </div>
+        </div>
+       <div class="aside">
+           <div class="search">
+            <form>
+                <input type="search" name="q" list="searchterms" placeholder="Pesquise nome do livro ou autor" size="30"
+                >
+            <button>Pesquisar</button>
+            </form>
+        </div>
+        <div class="id">
+            <input type="number" placeholder="Pesquise pelo ID">
+            <button>Pesquisar ID</button>
+        </div>       
+       </div>
+    </div>
+    <div class="rooter">
+        <h3>Deixe seu contato para receber promoções:</h3>
+         <br>
+           <form>
+                <label for="nome">Nome:</label>
+                <input id="nome" placeholder="digite seu nome" type="text" spellcheck="false">
+                <label for="email">Email:</label>
+                <input id="email" placeholder="email@email.com.br" type="text" spellcheck="false">
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+           </form>
+    </div>
+</body>
+</html>
