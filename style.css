@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*  */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.containertopo {
+    display: flex;
+
+}
+
+.topo {
+    width: 100%;
+    height: 80px;
+    background-color: #bbcdda;
+
+}
+
+.topo nav ul { /*meu ul é o meu container,pois é onde estão acoplados meus elementos da li*/
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+
+.topo nav ul li {
+    list-style-type: none;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.containerheader {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: #A9838A;
+    border: 1px solid #b88991;
+}
+
+.headerleft {
+    width: 30%;
+    
+}
+
+.headerleft img {
+   height: 100%; /*esta altura é de 100% de containerheader*/
+}
+
+.headerright {
+    width: 70%;
+    
+}
+
+.headerright p {
+    font: italic bold 30px expanded;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+
+.containerplus {
+    display: flex;
+    height: 600px;  
+}
+
+.nav {
+    width: 20%;
+    background-color: #bfb9cf;
+   padding: 10px 0;
+}
+
+.nav span {
+    font: normal bold 16px expanded;
+    margin-left: 5px;
+    color: rgb(80, 23, 8);
+}
+
+.nav li {
+    margin-top: 2px;
+    list-style-type: none;   
+}
+
+a {
+    color: rgb(3, 39, 19);
+    font: normal bold 14px expanded;
+    margin-left: 10px;
+}
+
+
+.main {
+    width: 60%;
+    background-color: #ecdeaf;
+    border: 1px solid #d3c186;;
+    display: flex;     /* alinha meus elementos lado a lado*/
+    flex-wrap: wrap;  /*qdo o elemento não cabe no espaço reservado, ele vai pra outra linha ou coluna*/
+    justify-content: space-between;
+}
+
+.main div {     /*como as minhas div ficam dentro do man, coloco ela depois do main no css*/
+    width: 160px;
+    height: 160px;
+    border: #c4a749;
+    background-color: #ecdeaf;
+   margin: 20px 10px 0 10px;
+   font: normal bold 18px expanded; 
+}
+
+
+.cx1 a {
+    margin-left: 50px;
+    color: black; 
+}
+
+.cx2 a {
+    margin-left: 50px;
+    color: black;
+}
+
+.cx3 a {
+    margin-left: 50px;
+    color: black;
+}
+
+.cx4 a {
+    margin-left: 20px;
+    color: black;
+}
+
+.cx5 a {
+    margin-left: 50px;
+    color: black;
+}
+
+.cx6 a {
+    margin-left: 50px;
+    color: black;
+}
+
+.aside {
+    width: 20%;
+   background-color: #ACA2A2;
+   padding: 100px 0;
+}
+
+.search input {
+    margin-left: 10px; 
+    width: 200px;
+    border-radius: 3px;
+    height: 30px;
+
+}
+
+button {
+    margin-left: 60px;
+    margin-top: 10px;
+    font: normal bold 16px expanded;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    background: linear-gradient(90deg, rgba(60,199,193,1) 0%, rgb(82, 125, 179) 50%, rgb(50, 59, 189) 100%);
+    height: 30px;
+    width: 80px;
+}
+
+.id input {
+    margin-top: 150px;
+    margin-left: 10px; 
+    width: 200px;
+    border-radius: 3px;
+    height: 30px;
+}
+
+button {
+    margin-left: 60px;
+    margin-top: 10px;
+    font: normal bold 16px expanded;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    background: linear-gradient(90deg, rgba(60,199,193,1) 0%, rgb(82, 125, 179) 50%, rgb(50, 59, 189) 100%);
+    height: 30px;
+    width: 100px;
+}
+
+.rooter {
+    font: normal bold 16px expanded;
+    height: 80px;
+    background-color: #e0c6c3;
+    border: 1px solid #c7adaa;  
+}
+
+.rooter h3 {
+    text-align: center;
+}
+
+form label {
+    margin-left: 160px;
+    color: black 
+}
+
+form input {
+    color: black;
+    font: normal bold 14px expanded;
+    padding: 3px;
+    width: 200px;
+}
+
+.enviar {
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    font: normal bold 16px expanded;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    background: linear-gradient(90deg, rgba(60,199,193,1) 0%, rgba(79,117,162,1) 50%, rgba(12,22,164,1) 100%)
+}
